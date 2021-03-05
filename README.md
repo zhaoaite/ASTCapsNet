@@ -8,9 +8,9 @@ Index Terms—Gait recognition, associated capsules, spatiotemporal, capsule net
 
 # Datasets
 Three normal gait datasets: 
--CASIA Gait dataset: http://www.cbsr.ia.ac.cn/china/Gait%20Databases%20CH.asp.
--UNITO dataset: [E. Gianaria, M. Grangetto, M. Lucenteforte, and N. Balossino, Human classification using gait features. Springer, 2014]
--SDUgait dataset :  http://mla.sdu.edu.cn/info/1006/1195.htm
+- CASIA Gait dataset: http://www.cbsr.ia.ac.cn/china/Gait%20Databases%20CH.asp.
+- UNITO dataset: [E. Gianaria, M. Grangetto, M. Lucenteforte, and N. Balossino, Human classification using gait features. Springer, 2014]
+- SDUgait dataset :  http://mla.sdu.edu.cn/info/1006/1195.htm
 
 Two abnormal gait datasets (neurodegenerative patients):
 - NDDs dataset :https://physionet.org/physiobank/database/gaitndd/
@@ -28,16 +28,14 @@ Other dependencies can be installed using the following command:
 
 # Usage
 You need to change the class number, number of capsules in the file of capsNet.py, capsLayer.py, and utils.py shows the dataset settings.
-
 and then run the whole model: 
-
 python main.py
 
 
 
 
 # Citation
--If you use these models in your research, please cite:
+If you use these models in your research, please cite:
 
 @article{Zhao2021,
 
