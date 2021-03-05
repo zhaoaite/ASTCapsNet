@@ -37,12 +37,12 @@ python main.py
 # Citation
 If you use these models in your research, please cite:
 
-@article{Zhao2021,
-author = {Zhao, Aite and Dong, Junyu and Li, Jianbo and Qi, Lin and Zhou, Huiyu},
-year = {2021},
-month = {01},
-pages = {1-14},
-journal = {IEEE Transactions on Multimedia}, 
-title = {Associated Spatio-Temporal Capsule Network for Gait Recognition}
-}
+@article{Zhao2021,  
+author = {Zhao, Aite and Dong, Junyu and Li, Jianbo and Qi, Lin and Zhou, Huiyu},  
+year = {2021},  
+month = {01},  
+pages = {1-14},  
+journal = {IEEE Transactions on Multimedia},   
+title = {Associated Spatio-Temporal Capsule Network for Gait Recognition}  
+}  
 
