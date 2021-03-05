@@ -7,12 +7,15 @@ It is a challenging task to identify a person based on her/his gait patterns. St
 Index Terms—Gait recognition, associated capsules, spatiotemporal, capsule network, multi-sensor
 
 # Datasets
-The sleep dataset can be downloaded in
+Three normal gait datasets: 
+CASIA Gait dataset: http://www.cbsr.ia.ac.cn/china/Gait%20Databases%20CH.asp.
+UNITO dataset: [E. Gianaria, M. Grangetto, M. Lucenteforte, and N. Balossino, Human classification using gait features. Springer, 2014]
+SDUgait dataset :  http://mla.sdu.edu.cn/info/1006/1195.htm
 
-Sleep Bioradiolocation Database: https://www.physionet.org/content/sleepbrl/1.0.0/
-PSG: https://www.physionet.org/content/sleep-accel/1.0.0/
-Pressure Map Dataset: https://www.physionet.org/content/pmd/1.0.0/
-Please refer to the preprocessing and other details on these three datasets.
+Two abnormal gait datasets (neurodegenerative patients):
+- NDDs dataset :https://physionet.org/physiobank/database/gaitndd/
+-  PD dataset: http://physionet.org/pn3/gaitpdb/
+
 
 # Requirements
 python >= 3.5
