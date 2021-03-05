@@ -8,9 +8,9 @@ Index Terms—Gait recognition, associated capsules, spatiotemporal, capsule net
 
 # Datasets
 Three normal gait datasets: 
-CASIA Gait dataset: http://www.cbsr.ia.ac.cn/china/Gait%20Databases%20CH.asp.
-UNITO dataset: [E. Gianaria, M. Grangetto, M. Lucenteforte, and N. Balossino, Human classification using gait features. Springer, 2014]
-SDUgait dataset :  http://mla.sdu.edu.cn/info/1006/1195.htm
+-CASIA Gait dataset: http://www.cbsr.ia.ac.cn/china/Gait%20Databases%20CH.asp.
+-UNITO dataset: [E. Gianaria, M. Grangetto, M. Lucenteforte, and N. Balossino, Human classification using gait features. Springer, 2014]
+-SDUgait dataset :  http://mla.sdu.edu.cn/info/1006/1195.htm
 
 Two abnormal gait datasets (neurodegenerative patients):
 - NDDs dataset :https://physionet.org/physiobank/database/gaitndd/
@@ -18,30 +18,41 @@ Two abnormal gait datasets (neurodegenerative patients):
 
 
 # Requirements
-python >= 3.5
-numpy >= 1.18.0
-scipy
-tensorflow
+-python >= 3.5
+-numpy >= 1.18.0
+-scipy
+-tensorflow
+
 Other dependencies can be installed using the following command:
-pip install -r requirements.txt
+
+-pip install -r requirements.txt
 
 # Usage
-Pretraining process:
+You need to change the class number, number of capsules in the file of capsNet.py, capsLayer.py, and utils.py shows the dataset settings.
 
-python MLP_Workers.py
+and then run the whole model: 
 
-Recognition process:
+python main.py
 
-python downstream_with_crf.py
+
+
 
 # Citation
-If you use these models in your research, please cite:
+-If you use these models in your research, please cite:
 
 @article{Zhao2021,
+
 author = {Zhao, Aite and Dong, Junyu and Li, Jianbo and Qi, Lin and Zhou, Huiyu},
+
 year = {2021},
+
 month = {01},
+
 pages = {1-14},
+
+journal = {IEEE Transactions on Multimedia}, 
+
 title = {Associated Spatio-Temporal Capsule Network for Gait Recognition}
+
 }
 
