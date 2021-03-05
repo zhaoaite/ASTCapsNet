@@ -23,20 +23,20 @@ Two abnormal gait datasets (neurodegenerative patients):
 - scipy
 - tensorflow
 
-Other dependencies can be installed using the following command:
-- pip install -r requirements.txt
+Other dependencies can be installed using the following command:  
+- pip install -r requirements.txt  
 
 # Usage
-You need to change the class number, number of capsules in the file of capsNet.py, capsLayer.py, and utils.py shows the dataset settings.
-and then run the whole model: 
-python main.py
+You need to change the class number, number of capsules in the file of capsNet.py, capsLayer.py, and utils.py shows the dataset settings.  
+and then run the whole model:   
+python main.py  
 
 
 
 
 # Citation
 If you use these models in your research, please cite:
-
+	<h1>
 @article{Zhao2021,  
 author = {Zhao, Aite and Dong, Junyu and Li, Jianbo and Qi, Lin and Zhou, Huiyu},  
 year = {2021},  
@@ -45,4 +45,5 @@ pages = {1-14},
 journal = {IEEE Transactions on Multimedia},   
 title = {Associated Spatio-Temporal Capsule Network for Gait Recognition}  
 }  
+</h1>
 
