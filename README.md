@@ -18,14 +18,13 @@ Two abnormal gait datasets (neurodegenerative patients):
 
 
 # Requirements
--python >= 3.5
--numpy >= 1.18.0
--scipy
--tensorflow
+- python >= 3.5
+- numpy >= 1.18.0
+- scipy
+- tensorflow
 
 Other dependencies can be installed using the following command:
-
--pip install -r requirements.txt
+- pip install -r requirements.txt
 
 # Usage
 You need to change the class number, number of capsules in the file of capsNet.py, capsLayer.py, and utils.py shows the dataset settings.
